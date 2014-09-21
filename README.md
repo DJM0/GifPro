@@ -29,7 +29,6 @@ The GoPro is running a Cherokee server which exposes some small files, including
 
 ## Installation
 
-gifsicle
-ffmpeg
+`sudo apt-get install gifsicle imagemagick ffmpeg`
 
 `sudo pip install pytumblr requests`

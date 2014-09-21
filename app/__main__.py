@@ -10,18 +10,18 @@ import urllib
 import uuid
 from subprocess import call
 
-frequency = 90 # Loop interval
+frequency = 10 # Loop interval
 frames = 20 # Fames to take
 delay = 0.2 # Delay between frames
 gifDelay = 20 # Used for timing GIF generation
 
 # Tumblr config
-tumblrName = "hackference"
-consumerKey = "00qcEwFwDX1BiFP3zNNBC1aeFI99jSaiHJmWAYdYoWsLQSMBgJ"
-consumerSecret = "tKJape76Tqj6bcUThlXSTaE3ljgWbC1HeKukI3BDj9vtnCd8Z5"
-oauthToken = "cnI5FFuiFzJIhopm18DyqBVsQR8GuQhjBvwF6IeH4lX81gW9Oe"
-oauthSecret = "zkqEb4I7USyAXeMOXMsKbJpF4EKMICvYiE62ulEFTzSXMoUbK6"
-tags = ["Hackference", "GoPro", "GIF", "Hacking"]
+tumblrName = config.tumblrName
+consumerKey = config.consumerKey
+consumerSecret = config.consumerSecret
+oauthToken = config.oauthToken
+oauthSecret = config.oauthSecret
+tags = config.tags
 
 # Authenticate via OAuth to Tumblr
 tumblr = pytumblr.TumblrRestClient(consumerKey, consumerSecret, oauthToken, oauthSecret)

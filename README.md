@@ -2,6 +2,8 @@
 
 ![GifPro](http://josh.farrant.me/images/gifPro/gifPro.png "GifPro")
 
+**Gif-ify Your Life!**
+
 Project for Hackference 2.0.14 Hackathon.
 
 By [@FarPixel](https://twitter.com/FarPixel) & [@DavidMaitland](https://twitter.com/DavidMaitland)
@@ -13,7 +15,7 @@ By [@FarPixel](https://twitter.com/FarPixel) & [@DavidMaitland](https://twitter.
 
 ## About
 
-**GifPro** creates a 20 frame GIF once every 5 minutes using the GoPro's undocumented *live preview* feature, which it then uploads to Tumblr / Twitter using 3/4G or WiFi.
+**GifPro** creates a 20 frame GIF once every 5 minutes using the GoPro's undocumented *live preview* feature, which it then uploads to Tumblr / Twitter using 3G, 4G, or WiFi!
 
 This works both when the camera is and isn't recording by utilizing the WiFi bridge that the GoPro creates to communicate with the official GoPro app.
 

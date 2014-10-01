@@ -2,6 +2,8 @@
 
 ![GifPro](http://josh.farrant.me/images/gifPro/gifPro.png "GifPro")
 
+![Cool Gif of me walking through Newstreet station](http://38.media.tumblr.com/7dda37134158f24c08b394498fc3ad1d/tumblr_nc8uygxP0i1tmy92xo1_500.gif)
+
 **Gif-ify Your Life!**
 
 Project for Hackference 2.0.14 Hackathon.
@@ -32,3 +34,5 @@ The GoPro is running a Cherokee server which exposes some small files, including
 `sudo apt-get install gifsicle imagemagick ffmpeg`
 
 `sudo pip install pytumblr requests`
+
+![David dancing Gif](http://31.media.tumblr.com/16887c2b9d54680fa07cf4e8449e1fca/tumblr_nc9sqzJZVn1tmy92xo1_500.gif)

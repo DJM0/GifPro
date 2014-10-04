@@ -32,7 +32,7 @@ tmp = data + "tmp/"
 output = data + "output/"
 
 # GoPro
-goProUrl = "http://10.5.5.9:8080/live/amba.mp4"
+goProUrl = "http://10.5.5.9:8080/live/amba.m3u8"
 
 def getGif():
 
@@ -64,7 +64,7 @@ def getGif():
 
 def mp4ToGif(num):
 
-  call("ffmpeg -i " + tmp + num + ".mp4 -ss 00:00:00 -vframes 1  " + tmp + num + ".png", shell=True)
+  call("ffmpeg -i " + tmp + num + ".m3u8 -ss 00:00:00 -vframes 1  " + tmp + num + ".png", shell=True)
   call("convert " + tmp + num + ".png " + tmp + num + ".gif", shell=True)
 
 def makeGif():
